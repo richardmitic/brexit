@@ -1,12 +1,15 @@
 # brexit
 
+Take back control of all subsequent imports
+
 ## Usage
 ```
 >>> import brexit
 
+>>> import food
+
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/Users/richardmitic/dev/brexit/boom/venv/lib/python2.7/site-packages/brexit/__init__.py", line 4, in <module>
-    raise Brexception("Trade deal undefined")
+  File "/Users/richard/Developer/brexit/boom/venv3/lib/python3.7/site-packages/brexit/__init__.py", line 9, in __sovereignty__
 brexit.Brexception: Trade deal undefined
 ```
